@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CryptoCurrencyPL</string>
+    <string name="coins">Coins</string>
+    <string name="activity">Activity</string>
+    <string name="active">active</string>
+    <string name="inactive">inactive</string>
+    <string name="back_arrow">Back Arrow</string>
+    <string name="tags">Tags</string>
+    <string name="team_members">Team members</string>
+</resources>
