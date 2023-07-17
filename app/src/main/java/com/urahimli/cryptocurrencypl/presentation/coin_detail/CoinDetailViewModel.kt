@@ -19,7 +19,7 @@ import javax.inject.Inject
 @HiltViewModel
 class CoinDetailViewModel @Inject constructor(
     private val getCoinUseCase: GetCoinUseCase,
-    savedStateHandle: SavedStateHandle    //coin'i mueyyenlesdiren ozelliklere erisim getirir
+    savedStateHandle: SavedStateHandle    
 ) : ViewModel() {
 
     private val _state = mutableStateOf(CoinDetailState())
@@ -27,7 +27,7 @@ class CoinDetailViewModel @Inject constructor(
 
     init {
         savedStateHandle.get<String>(Constants.PARAM_COIN_ID)?.let { coinId ->
-            getCoin(coinId)          //coin'i meselen tiklayib spesifik ozelliklerini gormek ucun isledirik
+            getCoin(coinId)          
         }
     }
 
