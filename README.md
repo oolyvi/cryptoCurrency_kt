@@ -12,7 +12,7 @@ Crypto Currency Market Application which helps users to interact with several co
 
 <br>
 
-# Screenshots samples from the app
+## Screenshots samples from the app
 
 <img src="screenshots/ss111.png" width="350">
 <br>
