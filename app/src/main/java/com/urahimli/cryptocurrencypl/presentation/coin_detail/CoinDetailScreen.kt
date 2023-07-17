@@ -100,7 +100,7 @@ fun CoinDetailScreen(
                     )
 
                     Spacer(modifier = Modifier.height(15.dp))
-//text'deki herf sayi asdiqda yeni setire kecir
+
                     FlowRow(
                         maxItemsInEachRow = 4,
                         horizontalArrangement = Arrangement.spacedBy(10.dp),
@@ -134,7 +134,7 @@ fun CoinDetailScreen(
         }
 
 
-//error varsa
+
         if (state.error.isNotBlank()) {
             Text(
                 text = state.error,
@@ -146,7 +146,7 @@ fun CoinDetailScreen(
                     .align(Alignment.Center)
             )
         }
-//loading screen
+
         if (state.isLoading) {
             CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
         }
