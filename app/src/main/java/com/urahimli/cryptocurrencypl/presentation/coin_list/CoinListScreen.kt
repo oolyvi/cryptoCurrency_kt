@@ -87,7 +87,7 @@ fun CoinListScreen(
                 )
             }
         }
-//error varsa
+
         if (state.error.isNotBlank()) {
             Text(
                 text = state.error,
@@ -99,7 +99,7 @@ fun CoinListScreen(
                     .align(Alignment.Center)
             )
         }
-//loading screen
+
         if (state.isLoading) {
             CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
         }
