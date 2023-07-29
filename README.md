@@ -8,6 +8,7 @@ Crypto Currency Market Application which helps users to interact with several co
 * Paprika API
 * Jetpack Compose
 * Coroutines
+* Room
 
 
 <br>
